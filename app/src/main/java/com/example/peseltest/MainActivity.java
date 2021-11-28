@@ -7,14 +7,32 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+/********************************************************
+ * nazwa klasy MainActivity
+ * atrybuty klasy: brak
+ * wartość zwracana: brak
+ * autor: 56789012345
+ * ****************************************************/
 public class MainActivity extends AppCompatActivity {
 
+    /********************************************************
+     * nazwa funkcji: onCreate
+     * parametry wejściowe: savedInstanceState - zapisany stan aplikacji
+     * wartość zwracana: brak
+     * autor: 56789012345
+     * ****************************************************/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 
+    /********************************************************
+     * nazwa funkcji: sprawdz
+     * parametry wejściowe: vew - widok, na którym wystąpiło zdarzenie
+     * wartość zwracana: brak
+     * autor: 56789012345
+     * ****************************************************/
     public void sprawdz(View view) {
         String komunikatStr = "";
         final int DLUGOSC_PESEL = 11;
@@ -60,6 +78,5 @@ public class MainActivity extends AppCompatActivity {
 
         TextView komunikat = (TextView) findViewById(R.id.komunikat);
         komunikat.setText(komunikatStr);
-
     }
 }

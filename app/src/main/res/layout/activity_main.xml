@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,52 +15,52 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Weryfikacja danych PESEL"
-        android:textSize="28sp"
-        android:background="#009595"
+        android:text="@string/tytul"
+        android:textSize="@dimen/duza_czcionka"
+        android:background="@color/tlo_tytulu"
         android:textColor="@color/white"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Imię: " />
+        android:text="@string/imie" />
     <EditText
         android:id="@+id/imie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Wprowadź imię"
+        android:hint="@string/zacheta_imie"
         android:imeOptions="actionNext" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nazwisko: " />
+        android:text="@string/nazwisko" />
     <EditText
         android:id="@+id/nazwisko"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Wprowadź nawisko"
+        android:hint="@string/zacheta_nawisko"
         android:imeOptions="actionNext" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pesel: " />
+        android:text="@string/pesel" />
     <EditText
         android:id="@+id/pesel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Wprowadź numer Pesel"
+        android:hint="@string/zacheta_pesel"
         android:inputType="number"
         android:imeOptions="actionDone" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Sprawdź"
+        android:text="@string/sprawdz"
         android:onClick="sprawdz"/>
     <TextView
         android:id="@+id/komunikat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tu pojawi się wynik weryfikacji"
+        android:text="@string/komunikat_tekst"
         android:layout_gravity="center"
         android:gravity="center" />
 </LinearLayout>

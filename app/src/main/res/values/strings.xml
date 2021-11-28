@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">PeselTest</string>
+    <string name="tytul">Weryfikacja danych PESEL</string>
+    <string name="imie">Imię:</string>
+    <string name="zacheta_imie">Wprowadź imię</string>
+    <string name="nazwisko">Nazwisko:</string>
+    <string name="zacheta_nawisko">Wprowadź nawisko</string>
+    <string name="pesel">Pesel:</string>
+    <string name="zacheta_pesel">Wprowadź numer Pesel</string>
+    <string name="sprawdz">Sprawdź</string>
+    <string name="komunikat_tekst">Tu pojawi się wynik weryfikacji</string>
 </resources>
